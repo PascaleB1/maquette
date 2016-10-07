@@ -1,0 +1,118 @@
+body{
+	background-image: url("img/full_back.png"), url("img/bg.jpg");
+	background-repeat: no-repeat, repeat;
+	background-position: left;
+	background-size: 80%;
+	font-family: Arial black, Helvetica, sans-serif;
+}
+
+section{
+	max-width: 350px;
+	margin-left: 20%;
+	float: left;
+}
+
+aside{
+	max-width: 200px;
+	margin-top: 25%;
+	float: left;
+	padding-left: 5%;
+}
+
+h1, h3, p, ul, ol, span{
+	color: white;
+}
+
+h1, h2, h3, p, ul, ol, em, span, cite, .ref{
+	font-size: x-small;
+}
+
+h1{
+	font-size: 15px;
+}
+
+h2{
+	background-color: yellow;
+	color: black;
+	margin-top: inherit;
+}
+
+em{
+	color: yellow;
+	font-weight: bold;
+	font-style: normal;
+}
+
+h1, h2{
+	text-transform: uppercase;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.ref{
+	color: white;
+	border-left: 2px solid yellow;
+	padding-left: 3px; 
+}
+
+.citation{
+	color: white;
+	border-top: 2px solid yellow;
+	border-bottom: 2px solid yellow;
+	border-left: black;
+	border-right: black;
+	background: #372f2e;
+	margin: 10px;
+}
+
+.border{
+	border-top: 2px solid yellow;
+	margin-top: 20px;
+	padding-top: inherit;
+	padding-bottom: inherit;
+}
+
+.left {
+	float: left;
+	padding-right: 10px;
+}
+
+.right{
+	float: right;
+	padding-left: 5px;
+	padding-bottom: 50px;
+}
+
+.liens{
+	float: left;
+}
+.background{
+	background-color: #372f2e;
+}
+
+.design{
+	float: right;
+}
+
+.étoile{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.cadre{
+	border: 2px solid yellow;
+}
+
+.cadre > h2{
+	color: rgb(236, 21, 91);
+}
+
+.cadre > p{
+	margin-left: 5px;
+}
+footer{
+	clear: both;
+	padding-left: 20%;
+}
